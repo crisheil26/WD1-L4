@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <h1 class="logo">My Product Store</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>🥤 Drinks</h2>
+            <div class="drinks-row">
+                <div class="card"><strong><i>Strawberry Watermelon Slush</i></strong>
+                    <img src="OIP (10).webp" alt="Strawberry Watermelon Slush">
+                    <p class="desc">The Strawberry Watermelon Slush is a refreshing drink made with strawberries, watermelon, and lemon juice.</p>
+                    <p> Php 80.00 </p>
+                    <button class="add-bnt">Add To Cart</button>
+                </div>
+
+                <div class="card"><strong><i>Piña Colada</i></strong>
+                    <img src="OIP.webp" alt="Piña Colada">
+                    <p class="desc">My perfect Piña Colada recipe is refreshing, not too sweet, and tastes distinctly like coconut and pineapple.</p>
+                    <p>Php 150.00</p>
+                    <button class="add-bnt">Add To Cart</button>
+                </div>
+
+                <div class="card"><strong><i>Creamy Lemon Milk Shake</i></strong>
+                    <img src="OIP (1).webp" alt="Creamy Lemon Milk Shake">
+                    <p class="desc">Tangy and sweet and unexpectedly delightful, this lemon shake recipe is one you'll return to again and again.</p>
+                    <p> Php 95.00</p>
+                    <button class="add-bnt">Add To Cart</button>
+                </div>
+
+                <div class="card"><strong><i>Lemon Blueberry Smoothie</i></strong>
+                    <img src="OIP (2).webp" alt="Lemon Blueberry Smoothie">
+                    <p class="desc">You’ll love the rich purple color of this vegan smoothie. You’ll appreciate its sweet and tangy taste even more.</p>
+                    <p> Php 165.00</p>
+                    <button class="add-bnt">Add To Cart</button>
+
+                </div>
+            </div>
+
+            <h2>🍪 Snacks</h2>
+            <div class="snacks-grid">
+                <div class="card"><strong><i>Sweet Potato Fries</i></strong>
+                    <img src="sweet-potato-fries-5.webp" alt="Sweet Potato Fries ">
+                    <p class="desc">Sweet potato fries are like the cool cousin of regular fries; they have that sweet, earthy flavor and a delightful crunch that leaves you wanting more.</p>
+                    <p> Php 100.00</p>
+                    <button class="add-bnt">Add To Cart</button>
+                </div>
+
+                <div class="card"><strong><i>Vegan Veggie Burger</i></strong>
+                    <img src="download.webp" alt="Vegan Veggie Burger">
+                    <p class="desc">Freezer-friendly Vegan Veggie Burger is packed with flavor, made with fresh vegetables, herbs, seeds, chickpeas or white beans, and spices.</p>
+                    <p>Php 165.00</p>
+                    <button class="add-bnt">Add To Cart</button>
+                </div>
+
+                <div class="card"><strong><i>Cheesy Nachos</i></strong>
+                    <img src="l158_24821594314551.webp" alt="Cheesy Nachos">
+                    <p class="desc">If you have been planning a movie night with family or friends at home, crispy and delicious cheese loaded nachos would be the best accompaniment to keep your taste buds satisfied.</p>
+                    <p> Php 100.00</p>
+                    <button class="add-bnt">Add To Cart</button>
+                </div>
+
+                <div class="card"><strong><i>Classic Cream Puffs</i></strong>
+                    <img src="download (1).webp" alt="Classic Cream Puffs">
+                    <p class="desc">The perfect cream puff begins with the perfect pâte à choux. </p>
+                    <p> Php 150.00</p>
+                    <button onclick="addToCart">Add To Cart</button>
+                </div>
+            </div>
+        </section>
+
+<!--Aside Cart of Items and Total-->
+    <aside class="cart">
+      <h2>🛒 My Cart</h2>
+      <ul id="cart-items"></ul>
+      <footer>
+        <p><strong>Total:</strong> ₱<span id="cart-total">0</span></p>
+      </footer>
+    </aside>
+  </main>
+
+    <footer>
+        <p>Develop by <strong> Ms.Althea Crisheil Duran </strong></p>
+        <p>| © 2025 All Rights Reserved</p>   
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
